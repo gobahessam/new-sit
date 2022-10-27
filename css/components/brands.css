@@ -1,0 +1,80 @@
+.brands {
+  margin: 180px 0;
+}
+.brands__title {
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 116%;
+  color: #003154;
+  margin-bottom: 40px;
+}
+.brands__card {
+  padding: 30px;
+  border-left: 1px solid #E1E1E1;
+  min-height: auto;
+  color: #111;
+  font-size: 16px;
+  width: 20%;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
+}
+.brands__card-item {
+  padding: 0 16px;
+}
+.brands__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  color: #404040;
+  max-width: 242px;
+}
+.slider-container {
+  max-width: 1200px;
+  padding: 0 15px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* swiper-bullets styling */
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 0 15px;
+  background-color: tomato;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: navy;
+}
+
+.swiper-container {
+  padding-bottom: 50px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-container .swiper-wrapper {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+    margin: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+  .slider-container .swiper-wrapper {
+    -webkit-box-pack: initial;
+    -ms-flex-pack: initial;
+    justify-content: initial;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+/*# sourceMappingURL=brands.css.map */
