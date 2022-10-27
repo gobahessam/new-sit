@@ -948,6 +948,12 @@ a {
   color: #003154;
   margin-bottom: 40px;
 }
+.brands__img{
+     filter: grayscale();
+}
+.brands__img:hover{
+     filter: none;
+}
 .brands__card {
   padding: 30px;
   border-left: 1px solid #E1E1E1;
@@ -956,6 +962,7 @@ a {
   font-size: 16px;
   margin-right: 2.5%;
   margin-bottom: 2.5%;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .brands__card {
